@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Effects: Sliding</title>
+		<script src="jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<button id="slideup">slideUp</button>
+	<button id="slidedown">slideDown</button>
+	<button id="slidetoggle">slideToggle</button>
+	<div id="para" style="background:#def;">
+	<img src="um.jpg" alt="um">
+	</div>
+
+	<script>
+		$("#slideup")	.click(function()	{$("#para").slideUp(	'slow')})
+		$("#slidedown")	.click(function()	{$("#para").slideDown(	'slow')})
+		$("#slidetoggle")	.click(function()	{$("#para").slideToggle(	'fast')})
+	</script>
+    
+</body>
+</html>

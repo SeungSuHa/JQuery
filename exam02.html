@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 처리</title>
+    <script src="jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <button id="clickme">Click Me</button>
+    <p id="result">I am a paragraph</p>
+    <script>
+      $('#clickme').click(function()
+      {
+        $('#result').html('You clicked the button!')
+      })
+    </script>
+    
+</body>
+</html>

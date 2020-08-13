@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects: hide & show</title>
+    <script src="jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<button id="hide">Hide</button>
+	<button id="show">Show</button>
+	<p id="text">Click the Hide and Show buttons</p>
+	<script>
+		$("#hide").click(function() {$("#text").hide("slow","linear")})
+		$("#show").click(function() {$("#text").show("ease","linear")})
+	</script>
+    
+</body>
+</html>
